@@ -30,7 +30,7 @@ jobs:
           # build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
         env:
           # PUBLIC_POKEAPI: 'https://pokeapi.co/api/v2' # Use single quotation marks for the variable value. (optional)
-          PUBLIC_GOOGLE_SITE_VERIFICATION: <meta name="google-site-verification" content="op3aK-Cigp20K5rz9K0GvfpIEAUXTNGtLQ7umQHtV7I" />
+          PUBLIC_GOOGLE_SITE_VERIFICATION: op3aK-Cigp20K5rz9K0GvfpIEAUXTNGtLQ7umQHtV7I
   deploy:
     needs: build
     runs-on: ubuntu-latest
