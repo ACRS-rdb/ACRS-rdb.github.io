@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://acrs.github.io/", // replace this with your deployed domain
+  website: "https://ACRS-rdb.github.io/", // replace this with your deployed domain
   author: "ACRS",
-  profile: "https://acrs.github.io/",
+  profile: "https://ACRS-rdb.github.io/",
   desc: "The Automatic Control Research Society (ACRS@NTUT) at National Taipei University of Technology is dedicated to research and implementation in automatic control, mechatronics, and robotics. We focus on building an open technical community to cultivate R&D expertise and promote open-source culture through project development and knowledge sharing.",
   title: "ACRS",
   ogImage: "ACRS.png",
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: false,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "",
   },
   dynamicOgImage: true,
   dir: "auto", // "rtl" | "auto"
