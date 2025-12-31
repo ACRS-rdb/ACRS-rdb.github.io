@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v5
       - name: Install, build, and upload your site
         uses: withastro/action@v5
-        environment: github-pages
+        
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 24 # The specific version of Node that should be used to build your site. Defaults to 22. (optional)
@@ -30,7 +30,7 @@ jobs:
           # build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
         env:
           # PUBLIC_POKEAPI: 'https://pokeapi.co/api/v2' # Use single quotation marks for the variable value. (optional)
-          PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.PUBLIC_GOOGLE_SITE_VERIFICATION }}
+          PUBLIC_GOOGLE_SITE_VERIFICATION: <meta name="google-site-verification" content="op3aK-Cigp20K5rz9K0GvfpIEAUXTNGtLQ7umQHtV7I" />
   deploy:
     needs: build
     runs-on: ubuntu-latest
