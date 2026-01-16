@@ -1,3 +1,16 @@
+---
+title: 控制理論基礎入門
+author: ACRS@NTUT
+pubDatetime: 2026-01-16-01T00:00:00+08:00
+slug: post1
+featured: true
+draft: false
+tags:
+    - Blog
+description:
+    ACRS網站正式上線！
+---
+
 # 控制理論基礎入門
 
 ## 什麼是控制理論 (Control Theory)
