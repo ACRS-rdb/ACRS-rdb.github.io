@@ -1,14 +1,15 @@
 ---
 title: 控制理論基礎入門
 author: ACRS@NTUT
-pubDatetime: 2026-01-16-01T00:00:00+08:00
+pubDatetime: 2026-01-16T01:00:00+08:00
 slug: post1
 featured: true
 draft: false
 tags:
-    - Blog
+    - Blog 
+    - Tech
 description:
-    ACRS網站正式上線！
+    控制理論基礎入門
 ---
 
 # 控制理論基礎入門
@@ -185,7 +186,3 @@ description:
 控制理論是自動化系統的數學基礎,從簡單的開關控制到複雜的 AI 控制,都在我們的生活中扮演關鍵角色。理解控制理論的基本概念,有助於設計更穩定、高效且智慧的系統。
 
 無論是工業製程、機器人、自駕車還是航太應用,控制理論都是實現自動化與智慧化的核心技術。
-
----
-
-**參考資料來源:** ACRS@NTUT
