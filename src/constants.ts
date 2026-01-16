@@ -8,6 +8,7 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconInstagram from "@/assets/icons/brand-instagram.svg";
+import IconThreads from "@/assets/icons/brand-threads.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -30,18 +31,24 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on Instagram`,
     icon: IconInstagram,
   },
+  {
+    name: "Threads",
+    href: "https://www.threads.net/@acrs_rdb",
+    linkTitle: `${SITE.title} on Threads`,
+    icon: IconThreads,
+  },
   // {
   //   name: "LinkedIn",
   //   href: "https://www.linkedin.com/in/username/",
   //   linkTitle: `${SITE.title} on LinkedIn`,
   //   icon: IconLinkedin,
   // },
-  // {
-  //   name: "Mail",
-  //   href: "mailto:yourmail@gmail.com",
-  //   linkTitle: `Send an email to ${SITE.title}`,
-  //   icon: IconMail,
-  // },
+  {
+    name: "Mail",
+    href: "mailto:acrs.ntut.pr@gmail.com",
+    linkTitle: `Send an email to ${SITE.title}`,
+    icon: IconMail,
+  },
 ] as const;
 
 export const SHARE_LINKS: Social[] = [
